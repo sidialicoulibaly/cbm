@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+@layer utilities {
+  .custom-background {
+    background-image: repeating-linear-gradient(
+      135deg,
+      rgba(245, 168, 168, 0.1) 0px,
+      rgba(195, 33, 33, 0.1) 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    linear-gradient(90deg, rgb(255, 255, 255), rgb(255, 255, 255));
+  }
+}
+/* In your global CSS file (e.g., styles/globals.css) */
+.custom-shape {
+  width: 100px; /* Nouvelle largeur */
+  height: 100px; /* Nouvelle hauteur */
+  clip-path: path('M29.8,0C44.8,0,57.6,12,72,21.6c14.4,9.6,31.2,16.8,33.6,24c2.4,7.2-7.2,15.2-14.4,28.8c-7.2,13.6-12,32-21.6,33.6c-9.6,1.6-24-12-36-12s-22.4,13.6-36,12C12,106.4,0,88.8,0,72C0,55.2,12,48,18.4,36S12,0,28.8,0z');
+}
+
+.non-aligned:nth-child(1) .custom-shape {
+  margin-top: 0;
+}
+
+.non-aligned:nth-child(2) .custom-shape {
+  margin-top: 20px; /* Adjust as needed */
+}
+
+.non-aligned:nth-child(3) .custom-shape {
+  margin-top: 40px; /* Adjust as needed */
+}
+
+
