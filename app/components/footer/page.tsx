@@ -31,7 +31,10 @@ const Footer: React.FC = () => {
             en bourse. Nos formations sont payantes et accessibles à tous.
           </p>
           <div className="flex space-x-4">
-            <a href="#" className="bg-yellow-500 rounded-full p-2">
+            <a
+              href="https://www.facebook.com/profile.php?id=61559986900621&mibextid=LQQJ4d"
+              className="bg-yellow-500 rounded-full p-2"
+            >
               <i className="fab fa-facebook-f"></i>
             </a>
             <a href="#" className="bg-yellow-500 rounded-full p-2">

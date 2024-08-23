@@ -84,16 +84,12 @@ const Entete: React.FC = () => {
           )}
 
           {/* Icônes Email et Utilisateur */}
-          <Link href="/messages" legacyBehavior>
+          <Link href="https://bobsang71@gmail.com" legacyBehavior>
             <a>
               <MailIcon className="h-6 w-6 text-gray-300" />
             </a>
           </Link>
-          <Link href="/profile" legacyBehavior>
-            <a>
-              <UserIcon className="h-6 w-6 text-gray-300" />
-            </a>
-          </Link>
+        
 
           {/* Menu hamburger pour les petits écrans */}
           <div className="lg:hidden flex items-center ml-4">
