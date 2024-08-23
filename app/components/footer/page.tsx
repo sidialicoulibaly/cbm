@@ -37,7 +37,10 @@ const Footer: React.FC = () => {
             >
               <i className="fab fa-facebook-f"></i>
             </a>
-            <a href="#" className="bg-yellow-500 rounded-full p-2">
+            <a
+              href="https://www.instagram.com/bobsang71?igsh=MTBiMWg2NXcydHFzNQ=="
+              className="bg-yellow-500 rounded-full p-2"
+            >
               <i className="fab fa-instagram"></i>
             </a>
             <a href="#" className="bg-yellow-500 rounded-full p-2">
